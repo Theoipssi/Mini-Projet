@@ -1,7 +1,10 @@
-Mini Projet : Déploiement d'une Infrastructure Complète
+#Mini Projet : Déploiement d'une Infrastructure Complète
 L'objectif de ce projet est de déployer une infrastructure complète sur AWS en utilisant Terraform. L'infrastructure se compose d'instances EC2, de volumes EBS, d'adresses IP publiques et de groupes de sécurité.
 module
-Le projet est divisé en plusieurs modules Terraform.
+
+Voici le lien du word : https://testipformation-my.sharepoint.com/:w:/g/personal/t_krzysztofinski_ecole-ipssi_net/EUHnTHMv3aFAumihJz7Obp8BRFfToA_I7eO61IhwF4D2HQ?e=opRwfx
+
+#Le projet est divisé en plusieurs modules Terraform.
 
  module ec2_instance
 Ce module crée une instance EC2 avec la dernière version d'Ubuntu Bionic. Les tailles d'instance et de balise peuvent être modifiées selon les besoins.
@@ -15,7 +18,8 @@ dossier d'application
 Le dossier de l'application contient la configuration et les fichiers nécessaires pour déployer une application complète à l'aide des modules définis précédemment. Vous pouvez surcharger des variables pour rendre votre application plus dynamique.
 Une fois déployé, le rôle EC2 installera Nginx sur l'instance et enregistrera l'adresse IP publique de l'instance dans un fichier nommé ip_ec2-project.txt.
 utiliser
-Pour utiliser ce projet, procédez comme suit :
+
+#Pour utiliser notre projet, faites ceci :
 
  Assurez-vous que Terraform est installé sur votre ordinateur. Clonez ce référentiel Git sur votre ordinateur. Modifiez les variables dans le dossier de l'application selon vos besoins. Initialisez Terraform en exécutant la commande terraform init dans le dossier de votre application. Déployez le framework en exécutant la commande terraform apply. Attendez que le déploiement soit terminé et vérifiez que Nginx est installé sur votre instance EC2. Le fichier ip_ec2-project.txt est généré avec l'adresse IP publique de votre instance EC2. N'oubliez pas de détruire votre infrastructure après utilisation en exécutant la commande terraform destroy dans le dossier de votre application. a dit
 Informations d'identification AWS (clés d'accès et secrets) soit localement, soit de manière appropriée (par exemple, B. en utilisant des variables d'environnement ou des fichiers de configuration AWS.
