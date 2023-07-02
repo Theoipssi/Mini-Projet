@@ -1,4 +1,4 @@
-# Mini Projet Fait avec Segarane,Onildo,ilyas et Théo : Déploiement d'une Infrastructure Complète
+# Mini Projet : Déploiement d'une Infrastructure Complète
 L'objectif de ce projet est de déployer une infrastructure complète sur AWS en utilisant Terraform. L'infrastructure se compose d'instances EC2, de volumes EBS, d'adresses IP publiques et de groupes de sécurité.
 module
 
