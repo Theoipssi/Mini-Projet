@@ -2,7 +2,6 @@
 L'objectif de ce projet est de déployer une infrastructure complète sur AWS en utilisant Terraform. L'infrastructure se compose d'instances EC2, de volumes EBS, d'adresses IP publiques et de groupes de sécurité.
 module
 
-Voici le lien du word : https://testipformation-my.sharepoint.com/:w:/g/personal/t_krzysztofinski_ecole-ipssi_net/EUHnTHMv3aFAumihJz7Obp8BRFfToA_I7eO61IhwF4D2HQ?e=opRwfx
 
 # Le projet est divisé en plusieurs modules Terraform.
 
